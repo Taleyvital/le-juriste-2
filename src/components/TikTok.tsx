@@ -4,23 +4,20 @@ import { useRef, useState } from "react";
 
 const videos = [
   {
-    title: "Comment créer sa SARL ? 🏢",
-    src: "/videos/sarl.mp4",
-    href: "https://www.tiktok.com/@yaomardochee",
+    title: "Le droit en 60 secondes",
+    src: "/video-tiktok/3C4FE819-EB8D-4F08-98E8-0C4D57175486.MP4",
   },
   {
-    title: "Contrat de travail : 3 pièges à éviter",
-    src: "/videos/contrat-travail.mp4",
-    href: "https://www.tiktok.com/@yaomardochee",
+    title: "Le droit en 60 secondes",
+    src: "/video-tiktok/v14044g50000d7egud7og65iml0quuog.MP4",
   },
   {
-    title: "Le droit de propriété expliqué",
-    src: "/videos/droit-propriete.mp4",
-    href: "https://www.tiktok.com/@yaomardochee",
+    title: "Le droit en 60 secondes",
+    src: "/video-tiktok/v1c044g50000d782un7og65plvf369bg.MP4",
   },
 ];
 
-function VideoCard({ video }: { video: (typeof videos)[0] }) {
+function VideoCard({ video }: { video: { title: string; src: string } }) {
   const ref = useRef<HTMLVideoElement>(null);
   const [playing, setPlaying] = useState(false);
 

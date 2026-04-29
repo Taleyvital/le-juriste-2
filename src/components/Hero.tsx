@@ -30,8 +30,11 @@ export default function Hero() {
           </h1>
 
           <p className="font-sans text-[16px] md:text-[17px] leading-[1.65] text-[#45464d] max-w-[480px]">
-            Vulgariser le droit ivoirien pour les entrepreneurs et leaders de
-            demain. Une expertise juridique moderne pour une vision stratégique.
+            Juriste ivoirien spécialisé en droit des affaires et fiscalité,
+            Directeur juridique de l&rsquo;Union des commerçants de Côte
+            d&rsquo;Ivoire. Alliant rigueur juridique et pragmatisme, il
+            accompagne entrepreneurs et structures économiques dans leurs enjeux
+            juridiques et stratégiques.
           </p>
 
           <div>

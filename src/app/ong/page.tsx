@@ -32,14 +32,13 @@ export default function OngPage() {
               Engagement & Impact Social
             </span>
             <h1 className="font-serif text-[38px] md:text-[52px] font-bold leading-[1.15] tracking-[-0.02em] text-[#1b1b1d]">
-              Le Droit pour Tous
+              Président de l&rsquo;ONG Ensemble
             </h1>
             <p className="font-sans text-[16px] md:text-[17px] leading-[1.7] text-[#45464d]">
-              Notre ONG vise à démocratiser l&rsquo;accès à l&rsquo;information
-              juridique en Côte d&rsquo;Ivoire. Nous croyons qu&rsquo;un citoyen
-              informé est un acteur du développement. À travers des ateliers,
-              des formations et des actions de terrain, nous portons le droit au
-              cœur des communautés.
+              En parallèle de ses activités professionnelles, Yao Jean Mardoché
+              est Président de l&rsquo;ONG Ensemble, une organisation engagée
+              dans la vulgarisation du droit et la promotion des droits humains,
+              en particulier en milieu carcéral.
             </p>
           </div>
         </section>
@@ -69,30 +68,36 @@ export default function OngPage() {
 
         {/* Mission */}
         <section className="w-full max-w-[1200px] mx-auto px-6 py-16">
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-start">
+          <div className="flex flex-col gap-10 max-w-[780px]">
             <div className="flex flex-col gap-4">
               <h2 className="font-serif text-[26px] md:text-[30px] font-semibold text-[#1b1b1d] leading-snug">
-                Notre Mission
+                Actions & Engagement
               </h2>
               <div className="w-8 h-[2px] bg-[#1b1b1d]" />
               <p className="font-sans text-[15px] leading-[1.75] text-[#45464d]">
-                Rendre le droit accessible à tous, indépendamment du niveau
-                d&rsquo;instruction ou du statut socio-économique. Nos
-                interventions couvrent le droit civil, le droit du travail et
-                les droits fondamentaux du citoyen.
+                À travers cette organisation, il mène des actions de
+                sensibilisation et d&rsquo;assistance juridique auprès des
+                populations, notamment au sein des établissements pénitentiaires
+                à travers plusieurs villes de Côte d&rsquo;Ivoire.
               </p>
             </div>
-            <div className="flex flex-col gap-4">
-              <h2 className="font-serif text-[26px] md:text-[30px] font-semibold text-[#1b1b1d] leading-snug">
-                Notre Vision
-              </h2>
-              <div className="w-8 h-[2px] bg-[#1b1b1d]" />
-              <p className="font-sans text-[15px] leading-[1.75] text-[#45464d]">
-                Une Côte d&rsquo;Ivoire où chaque citoyen connaît et exerce ses
-                droits. Un État de droit vivant, porté par une jeunesse engagée,
-                informée et responsable.
+
+            {/* Quote */}
+            <blockquote className="border-l-4 border-[#1b1b1d] pl-6 py-2">
+              <p className="font-serif text-[20px] md:text-[22px] italic leading-[1.6] text-[#1b1b1d]">
+                &laquo;&nbsp;Vous avez fait une erreur, mais vous n&rsquo;êtes
+                pas des erreurs.&nbsp;&raquo;
               </p>
-            </div>
+            </blockquote>
+
+            <p className="font-sans text-[15px] leading-[1.75] text-[#45464d]">
+              Cette démarche s&rsquo;inscrit dans une logique de défense de la
+              dignité humaine, en rappelant que les droits fondamentaux
+              demeurent applicables indépendamment de la situation juridique des
+              individus. À ce titre, il soutient que le respect des droits de
+              l&rsquo;homme ne saurait être suspendu à la porte des
+              établissements pénitentiaires.
+            </p>
           </div>
         </section>
 
