@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 
 export default function Footer() {
   return (
@@ -31,6 +32,23 @@ export default function Footer() {
             </Link>
           ))}
         </nav>
+
+        {/* Developer credit */}
+        <a
+          href="https://webey-agency-elevate.vercel.app"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="flex items-center gap-2 opacity-70 hover:opacity-100 transition-opacity duration-200"
+        >
+          <span className="font-sans text-[11px] text-[#76777d]">Développé par</span>
+          <Image
+            src="/webey-cover-black.jpeg"
+            alt="Webey Agency"
+            width={60}
+            height={20}
+            className="object-contain"
+          />
+        </a>
       </div>
     </footer>
   );
